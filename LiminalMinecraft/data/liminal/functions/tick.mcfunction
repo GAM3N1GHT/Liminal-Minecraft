@@ -1,4 +1,0 @@
-execute if entity @a[scores={enter=1}] at @a[scores={enter=1}] if dimension liminal:nowhere run function liminal:end_enter
-execute as @a at @s if dimension liminal:nowhere store result score @s Ypos run data get entity @s Pos[1] 100000
-execute as @a at @s if dimension liminal:nowhere if score @s enter_end matches 0 if score @s Ypos <= @s level1_ceiling if score @s Ypos >= @s level1-2 run tellraw @a {"text":"placeholder"}
-execute at @r[nbt={Inventory:[{id:"minecraft:nether_star"}]}] if block ~ ~1 ~ #concrete_powder as @r[nbt={Inventory:[{id:"minecraft:nether_star"}]}] run function liminal:begin_enter
