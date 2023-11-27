@@ -1,2 +1,0 @@
-execute if entity @e[tag=level1_gen] as @e[tag=level1_gen] unless entity @s[tag=generated] at @s run fill ~1 ~ ~1 ~1 ~ ~1 blue_concrete
-execute if entity @e[tag=level1_gen] as @e[tag=level1_gen] unless entity @s[tag=generated] run tag @s add generated
