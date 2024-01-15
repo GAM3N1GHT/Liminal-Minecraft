@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "SMix_gbf_unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "liminal:smix_gbf"
+            }
+        }
+    },
+    "rewards": {
+        "function": "liminal:give_smix_gbf"
+    }
+}
