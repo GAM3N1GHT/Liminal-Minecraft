@@ -1,0 +1,13 @@
+{
+    "type": "liminal:nowhere",
+    "generator": {
+        "biome_source": {
+            "seed": 0,
+            "type": "minecraft:fixed",
+            "biome": "liminal:library"
+        },
+        "seed": 0,
+        "settings": "liminal:nowhere_noise_s",
+        "type": "minecraft:noise"
+    }
+}
