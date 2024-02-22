@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "SMix_f_unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "liminal:smix_f"
+            }
+        }
+    },
+    "rewards": {
+        "function": "liminal:give_smix_f"
+    }
+}
